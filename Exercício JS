@@ -1,0 +1,12 @@
+const idade = 55;
+const temCarteinha = true;
+
+const ehAdulta = idade >= 18 && idade <= 60;
+
+if (ehAdulta && temCarteinha === false){
+console.log ("INTEIRA");
+} else {
+    console.log ("MEIA");
+
+}
+
